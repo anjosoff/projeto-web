@@ -20,6 +20,12 @@ body{
     font-size: 46px;
     text-shadow: 3px 3px 2px #333;
 }
+.hero-content p{
+    background-color: rgba(0,0,0,0.8);
+    display: inline;
+    padding: 10px;
+    border-bottom : 2px solid white;
+}
 .hero nav ul{
     text-align: right;
     margin: 20px 50px 0px 0px;
@@ -48,11 +54,25 @@ main{
     width: 80%;
     margin: auto;
 }
+.card{
+    width: 32%;
+    float: left;
+    box-sizing: border-box;
+}
+.card-1, .card-2{
+    margin-right:2%;
+}
+.card img{
+    width: 100%;
+    display: block;
+}
 .content-section{
     background-color: white;
-    padding: 15px;
+    padding: 10px;
     margin-top: 15px;
+    overflow: auto;
 }
+
 .content-header{
     border-bottom: solid 2px #ccc;
     padding: 10px;
@@ -62,8 +82,11 @@ main{
     margin: 0;
 
 }
-.content-section div img{
-    border: 5px solid #eee;
+.card p{
+    background-color: rgb(77, 77, 77);
+    color:white;
+    margin: 0;
+    padding: 15px;
 }
 .rodape{
     height: 80px;
